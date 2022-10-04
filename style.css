@@ -1,0 +1,50 @@
+p{font-size: 16px;}
+input{
+    float: right;
+    background-color: red;
+    position: relative;
+}
+img{
+width: 40px;
+height: 40px;
+float: left;
+margin-right: 10px;}
+span{font-weight:bold}
+/*///////////////////CLASS////////////////*/
+
+
+.top_con{
+    display: block;
+}
+.top{display: inline-flex;
+}
+.m_sec{float: right;}
+.msg{background-color: hsl(210, 60%, 98%);
+    padding: 2px;}
+.msg:hover{
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 10px;
+}
+.comment{
+    margin-left: 30px;
+}
+/*////////////////////////////ID of main container//////////////////////////////////*/
+#bt_num{
+    background-color: hsl(219, 85%, 26%);
+ border-radius: 10px;
+margin-left: 10px;
+color: white;}
+#mark{
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    background-color:transparent;
+     }
+@media only screen and  (min-width:376px)
+{
+    .maincontainer{width:1440px;}
+}
+@media only screen and (max-width:500px)
+{.maincontainer{width:375px;
+    margin: auto;}
+}
